@@ -140,7 +140,7 @@ async def start(bot, message):
                 InlineKeyboardButton("🖲️ Commands", callback_data="help"),
                 InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
                 ],[
-                InlineKeyboardButton("🤖 More Bots @BotzListBot 🤖", url="https://t.me/+e4DBdVUAeVM0N2I1")
+                InlineKeyboardButton("🤖 More Bots 🤖", url="https://t.me/+e4DBdVUAeVM0N2I1")
                 ]]
             )
         )
