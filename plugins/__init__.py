@@ -46,7 +46,7 @@ HELP = """
 ABOUT = """
 **About Bot 🤖**
 
-**▷🤖 Name: [auto-filter-bot-v3](https://t.me/+e4DBdVUAeVM0N2I1).
+**▷🤖 Name: MOVIE SEARCH BOT(https://t.me/+e4DBdVUAeVM0N2I1).
     
 ▷👨‍💻 Creator : SHADOW
 
