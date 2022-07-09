@@ -51,9 +51,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm [auto-filter-bot-v3](https://github.com/zautekm/auto-filter-bot-v3)**
+**Hi, I'm Movie Search Bot. Click "Search Here" and Get Your Movie**
 
-Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
+if you don't find your movie,then request to @Movie124Bot .we'll send it within 6 Hours.
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
