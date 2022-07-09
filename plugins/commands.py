@@ -100,10 +100,10 @@ async def start(bot, message):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/BotzListBot')
+                        InlineKeyboardButton('More Bots', url='https://t.me/+e4DBdVUAeVM0N2I1')
                     ],
                     [
-                        InlineKeyboardButton('👨‍💻 Developer @ZauteKm 📢', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('👨‍💻 Developer 📢', url=f'{DEV_CHANNEL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -140,7 +140,7 @@ async def start(bot, message):
                 InlineKeyboardButton("🖲️ Commands", callback_data="help"),
                 InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
                 ],[
-                InlineKeyboardButton("🤖 More Bots @BotzListBot 🤖", url="https://t.me/BotzListBot")
+                InlineKeyboardButton("🤖 More Bots @BotzListBot 🤖", url="https://t.me/+e4DBdVUAeVM0N2I1")
                 ]]
             )
         )
@@ -354,7 +354,7 @@ async def bot_info(bot, message):
         [
             
             InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-            InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+            InlineKeyboardButton('Channel 📢', url=f'https://t.me/+e4DBdVUAeVM0N2I1')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
